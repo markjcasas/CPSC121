@@ -1,0 +1,17 @@
+[
+ {
+ "directory" : "/home/zach/Dropbox (CSU Fullerton)/Fall 2019/CPSC 121/Project/Tuffy_Travel_06",
+ "command" : "clang++ -std=c++17 tuffytravel.cpp -o tuffytravel",
+ "file" : "/home/zach/Dropbox (CSU Fullerton)/Fall 2019/CPSC 121/Project/Tuffy_Travel_06/tuffytravel.cpp"
+ },
+ {
+ "directory" : "/home/zach/Dropbox (CSU Fullerton)/Fall 2019/CPSC 121/Project/Tuffy_Travel_06",
+ "command" : "clang++ -std=c++17 route.cpp -o tuffytravel",
+ "file" : "/home/zach/Dropbox (CSU Fullerton)/Fall 2019/CPSC 121/Project/Tuffy_Travel_06/route.cpp"
+ },
+ {
+ "directory" : "/home/zach/Dropbox (CSU Fullerton)/Fall 2019/CPSC 121/Project/Tuffy_Travel_06",
+ "command" : "clang++ -std=c++17 route.hpp -o tuffytravel",
+ "file" : "/home/zach/Dropbox (CSU Fullerton)/Fall 2019/CPSC 121/Project/Tuffy_Travel_06/route.hpp"
+ },
+]

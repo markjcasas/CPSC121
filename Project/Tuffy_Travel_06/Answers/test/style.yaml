@@ -1,0 +1,479 @@
+---
+MainSourceFile:  '/home/zach/Dropbox (CSU Fullerton)/Fall 2019/CPSC 121/Project/Tuffy_Travel_06/route.cpp'
+Diagnostics:
+  - DiagnosticName:  fuchsia-default-arguments-calls
+    DiagnosticMessage:
+      Message:         calling a function that uses a default argument is disallowed
+      FilePath:        './route.hpp'
+      FileOffset:      180
+      Replacements:    []
+    Notes:
+      - Message:         default parameter was declared here
+        FilePath:        '/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/bits/basic_string.h'
+        FileOffset:      16627
+        Replacements:    []
+  - DiagnosticName:  performance-unnecessary-value-param
+    DiagnosticMessage:
+      Message:         'parameter ''name'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+      FilePath:        './route.hpp'
+      FileOffset:      275
+      Replacements:
+        - FilePath:        './route.hpp'
+          Offset:          39
+          Length:          0
+          ReplacementText: '#include <utility>
+
+'
+        - FilePath:        './route.hpp'
+          Offset:          275
+          Length:          0
+          ReplacementText: 'std::move('
+        - FilePath:        './route.hpp'
+          Offset:          279
+          Length:          0
+          ReplacementText: ')'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './route.hpp'
+      FileOffset:      579
+      Replacements:
+        - FilePath:        './route.hpp'
+          Offset:          567
+          Length:          11
+          ReplacementText: auto
+        - FilePath:        './route.hpp'
+          Offset:          585
+          Length:          0
+          ReplacementText: ' -> std::string'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './route.hpp'
+      FileOffset:      610
+      Replacements:
+        - FilePath:        './route.hpp'
+          Offset:          606
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        './route.hpp'
+          Offset:          624
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './route.hpp'
+      FileOffset:      657
+      Replacements:
+        - FilePath:        './route.hpp'
+          Offset:          653
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        './route.hpp'
+          Offset:          673
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './route.hpp'
+      FileOffset:      1039
+      Replacements:
+        - FilePath:        './route.hpp'
+          Offset:          1035
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        './route.hpp'
+          Offset:          1045
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './route.hpp'
+      FileOffset:      1284
+      Replacements:
+        - FilePath:        './route.hpp'
+          Offset:          1278
+          Length:          5
+          ReplacementText: auto
+        - FilePath:        './route.hpp'
+          Offset:          1298
+          Length:          0
+          ReplacementText: ' -> Route'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './route.hpp'
+      FileOffset:      1304
+      Replacements:
+        - FilePath:        './route.hpp'
+          Offset:          1300
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        './route.hpp'
+          Offset:          1323
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './route.hpp'
+      FileOffset:      1329
+      Replacements:
+        - FilePath:        './route.hpp'
+          Offset:          1325
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        './route.hpp'
+          Offset:          1363
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './route.hpp'
+      FileOffset:      1377
+      Replacements:
+        - FilePath:        './route.hpp'
+          Offset:          1365
+          Length:          11
+          ReplacementText: auto
+        - FilePath:        './route.hpp'
+          Offset:          1391
+          Length:          0
+          ReplacementText: ' -> std::string'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.cpp
+      FileOffset:      513
+      Replacements:
+        - FilePath:        route.cpp
+          Offset:          507
+          Length:          5
+          ReplacementText: auto
+        - FilePath:        route.cpp
+          Offset:          527
+          Length:          0
+          ReplacementText: ' -> Route'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.cpp
+      FileOffset:      1087
+      Replacements:
+        - FilePath:        route.cpp
+          Offset:          1083
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        route.cpp
+          Offset:          1106
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.cpp
+      FileOffset:      1257
+      Replacements:
+        - FilePath:        route.cpp
+          Offset:          1245
+          Length:          11
+          ReplacementText: auto
+        - FilePath:        route.cpp
+          Offset:          1271
+          Length:          0
+          ReplacementText: ' -> std::string'
+  - DiagnosticName:  clang-analyzer-core.VLASize
+    DiagnosticMessage:
+      Message:         'Declared variable-length array (VLA) has zero size'
+      FilePath:        route.cpp
+      FileOffset:      1604
+      Replacements:    []
+    Notes:
+      - Message:         Assuming the condition is false
+        FilePath:        route.cpp
+        FileOffset:      4268
+        Replacements:    []
+      - Message:         'Left side of ''||'' is false'
+        FilePath:        route.cpp
+        FileOffset:      4268
+        Replacements:    []
+      - Message:         Assuming the condition is false
+        FilePath:        route.cpp
+        FileOffset:      4287
+        Replacements:    []
+      - Message:         Taking false branch
+        FilePath:        route.cpp
+        FileOffset:      4264
+        Replacements:    []
+      - Message:         Assuming the condition is false
+        FilePath:        route.cpp
+        FileOffset:      4431
+        Replacements:    []
+      - Message:         'Left side of ''||'' is false'
+        FilePath:        route.cpp
+        FileOffset:      4431
+        Replacements:    []
+      - Message:         Assuming the condition is false
+        FilePath:        route.cpp
+        FileOffset:      4450
+        Replacements:    []
+      - Message:         Taking false branch
+        FilePath:        route.cpp
+        FileOffset:      4427
+        Replacements:    []
+      - Message:         Assuming the condition is true
+        FilePath:        route.cpp
+        FileOffset:      4552
+        Replacements:    []
+      - Message:         'Left side of ''||'' is true'
+        FilePath:        route.cpp
+        FileOffset:      4568
+        Replacements:    []
+      - Message:         'Calling ''RouteManager::find_route'''
+        FilePath:        route.cpp
+        FileOffset:      4594
+        Replacements:    []
+      - Message:         'Assuming field ''size_'' is not equal to 0'
+        FilePath:        route.cpp
+        FileOffset:      1472
+        Replacements:    []
+      - Message:         Taking false branch
+        FilePath:        route.cpp
+        FileOffset:      1468
+        Replacements:    []
+      - Message:         '''time_difference_count'' initialized to 0'
+        FilePath:        route.cpp
+        FileOffset:      1569
+        Replacements:    []
+      - Message:         'Declared variable-length array (VLA) has zero size'
+        FilePath:        route.cpp
+        FileOffset:      1604
+        Replacements:    []
+  - DiagnosticName:  fuchsia-default-arguments-calls
+    DiagnosticMessage:
+      Message:         calling a function that uses a default argument is disallowed
+      FilePath:        route.cpp
+      FileOffset:      2732
+      Replacements:    []
+    Notes:
+      - Message:         default parameter was declared here
+        FilePath:        '/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/fstream'
+        FileOffset:      30713
+        Replacements:    []
+  - DiagnosticName:  fuchsia-default-arguments-calls
+    DiagnosticMessage:
+      Message:         calling a function that uses a default argument is disallowed
+      FilePath:        route.cpp
+      FileOffset:      3192
+      Replacements:    []
+    Notes:
+      - Message:         default parameter was declared here
+        FilePath:        '/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/fstream'
+        FileOffset:      22817
+        Replacements:    []
+  - DiagnosticName:  readability-static-accessed-through-instance
+    DiagnosticMessage:
+      Message:         static member accessed through instance
+      FilePath:        route.cpp
+      FileOffset:      3366
+      Replacements:
+        - FilePath:        route.cpp
+          Offset:          3366
+          Length:          7
+          ReplacementText: 'std::ifstream::'
+  - DiagnosticName:  readability-static-accessed-through-instance
+    DiagnosticMessage:
+      Message:         static member accessed through instance
+      FilePath:        route.cpp
+      FileOffset:      3729
+      Replacements:
+        - FilePath:        route.cpp
+          Offset:          3729
+          Length:          7
+          ReplacementText: 'std::ifstream::'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.cpp
+      FileOffset:      3879
+      Replacements:
+        - FilePath:        route.cpp
+          Offset:          3875
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        route.cpp
+          Offset:          3913
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  readability-else-after-return
+    DiagnosticMessage:
+      Message:         'do not use ''else'' after ''return'''
+      FilePath:        route.cpp
+      FileOffset:      4422
+      Replacements:
+        - FilePath:        route.cpp
+          Offset:          4422
+          Length:          5
+          ReplacementText: ''
+  - DiagnosticName:  fuchsia-default-arguments-calls
+    DiagnosticMessage:
+      Message:         calling a function that uses a default argument is disallowed
+      FilePath:        route.hpp
+      FileOffset:      180
+      Replacements:    []
+    Notes:
+      - Message:         default parameter was declared here
+        FilePath:        '/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/bits/basic_string.h'
+        FileOffset:      16627
+        Replacements:    []
+  - DiagnosticName:  performance-unnecessary-value-param
+    DiagnosticMessage:
+      Message:         'parameter ''name'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+      FilePath:        route.hpp
+      FileOffset:      275
+      Replacements:
+        - FilePath:        route.hpp
+          Offset:          39
+          Length:          0
+          ReplacementText: '#include <utility>
+
+'
+        - FilePath:        route.hpp
+          Offset:          275
+          Length:          0
+          ReplacementText: 'std::move('
+        - FilePath:        route.hpp
+          Offset:          279
+          Length:          0
+          ReplacementText: ')'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.hpp
+      FileOffset:      579
+      Replacements:
+        - FilePath:        route.hpp
+          Offset:          567
+          Length:          11
+          ReplacementText: auto
+        - FilePath:        route.hpp
+          Offset:          585
+          Length:          0
+          ReplacementText: ' -> std::string'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.hpp
+      FileOffset:      610
+      Replacements:
+        - FilePath:        route.hpp
+          Offset:          606
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        route.hpp
+          Offset:          624
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.hpp
+      FileOffset:      657
+      Replacements:
+        - FilePath:        route.hpp
+          Offset:          653
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        route.hpp
+          Offset:          673
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.hpp
+      FileOffset:      1039
+      Replacements:
+        - FilePath:        route.hpp
+          Offset:          1035
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        route.hpp
+          Offset:          1045
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.hpp
+      FileOffset:      1284
+      Replacements:
+        - FilePath:        route.hpp
+          Offset:          1278
+          Length:          5
+          ReplacementText: auto
+        - FilePath:        route.hpp
+          Offset:          1298
+          Length:          0
+          ReplacementText: ' -> Route'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.hpp
+      FileOffset:      1304
+      Replacements:
+        - FilePath:        route.hpp
+          Offset:          1300
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        route.hpp
+          Offset:          1323
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.hpp
+      FileOffset:      1329
+      Replacements:
+        - FilePath:        route.hpp
+          Offset:          1325
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        route.hpp
+          Offset:          1363
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        route.hpp
+      FileOffset:      1377
+      Replacements:
+        - FilePath:        route.hpp
+          Offset:          1365
+          Length:          11
+          ReplacementText: auto
+        - FilePath:        route.hpp
+          Offset:          1391
+          Length:          0
+          ReplacementText: ' -> std::string'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        tuffytravel.cpp
+      FileOffset:      65
+      Replacements:
+        - FilePath:        tuffytravel.cpp
+          Offset:          61
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        tuffytravel.cpp
+          Offset:          71
+          Length:          0
+          ReplacementText: ' -> int'
+...
