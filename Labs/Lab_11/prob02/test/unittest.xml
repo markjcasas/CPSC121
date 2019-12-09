@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="13" failures="0" disabled="0" errors="0" time="0.048" timestamp="2019-12-07T23:35:33" name="AllTests">
+  <testsuite name="Candy" tests="4" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-07T23:35:33">
+    <testcase name="PublicMethodPresent" status="run" result="completed" time="0" timestamp="2019-12-07T23:35:33" classname="Candy" />
+    <testcase name="AccessorsMutators" status="run" result="completed" time="0" timestamp="2019-12-07T23:35:33" classname="Candy" />
+    <testcase name="DefaultConstructor" status="run" result="completed" time="0" timestamp="2019-12-07T23:35:33" classname="Candy" />
+    <testcase name="NonDefaultConstructor" status="run" result="completed" time="0" timestamp="2019-12-07T23:35:33" classname="Candy" />
+  </testsuite>
+  <testsuite name="CandyShop" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-07T23:35:33">
+    <testcase name="PublicMethodPresent" status="run" result="completed" time="0" timestamp="2019-12-07T23:35:33" classname="CandyShop" />
+    <testcase name="DefaultConstructor" status="run" result="completed" time="0" timestamp="2019-12-07T23:35:33" classname="CandyShop" />
+    <testcase name="AddCandySize" status="run" result="completed" time="0" timestamp="2019-12-07T23:35:33" classname="CandyShop" />
+    <testcase name="AddCandyLessThanTen" status="run" result="completed" time="0" timestamp="2019-12-07T23:35:33" classname="CandyShop" />
+    <testcase name="AddCandyOverTen" status="run" result="completed" time="0" timestamp="2019-12-07T23:35:33" classname="CandyShop" />
+    <testcase name="Print" status="run" result="completed" time="0" timestamp="2019-12-07T23:35:33" classname="CandyShop" />
+    <testcase name="TotalPrice" status="run" result="completed" time="0" timestamp="2019-12-07T23:35:33" classname="CandyShop" />
+  </testsuite>
+  <testsuite name="Input" tests="1" failures="0" disabled="0" errors="0" time="0.005" timestamp="2019-12-07T23:35:33">
+    <testcase name="Candies" status="run" result="completed" time="0.005" timestamp="2019-12-07T23:35:33" classname="Input" />
+  </testsuite>
+  <testsuite name="Driver" tests="1" failures="0" disabled="0" errors="0" time="0.043" timestamp="2019-12-07T23:35:33">
+    <testcase name="Output" status="run" result="completed" time="0.043" timestamp="2019-12-07T23:35:33" classname="Driver" />
+  </testsuite>
+</testsuites>

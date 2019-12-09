@@ -1,0 +1,416 @@
+---
+MainSourceFile:  '/home/zach/Dropbox (CSU Fullerton)/Personal/Programming/C++/Labs/Lab_11/prob03/car_comp.cpp'
+Diagnostics:
+  - DiagnosticName:  fuchsia-default-arguments-calls
+    DiagnosticMessage:
+      Message:         calling a function that uses a default argument is disallowed
+      FilePath:        './car_comp.hpp'
+      FileOffset:      220
+      Replacements:    []
+    Notes:
+      - Message:         default parameter was declared here
+        FilePath:        '/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/bits/basic_string.h'
+        FileOffset:      16627
+        Replacements:    []
+  - DiagnosticName:  fuchsia-default-arguments-calls
+    DiagnosticMessage:
+      Message:         calling a function that uses a default argument is disallowed
+      FilePath:        './car_comp.hpp'
+      FileOffset:      231
+      Replacements:    []
+    Notes:
+      - Message:         default parameter was declared here
+        FilePath:        '/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/bits/basic_string.h'
+        FileOffset:      16627
+        Replacements:    []
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './car_comp.hpp'
+      FileOffset:      403
+      Replacements:
+        - FilePath:        './car_comp.hpp'
+          Offset:          391
+          Length:          11
+          ReplacementText: auto
+        - FilePath:        './car_comp.hpp'
+          Offset:          415
+          Length:          0
+          ReplacementText: ' -> std::string'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './car_comp.hpp'
+      FileOffset:      499
+      Replacements:
+        - FilePath:        './car_comp.hpp'
+          Offset:          495
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        './car_comp.hpp'
+          Offset:          509
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './car_comp.hpp'
+      FileOffset:      576
+      Replacements:
+        - FilePath:        './car_comp.hpp'
+          Offset:          564
+          Length:          11
+          ReplacementText: auto
+        - FilePath:        './car_comp.hpp'
+          Offset:          597
+          Length:          0
+          ReplacementText: ' -> std::string'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './car_comp.hpp'
+      FileOffset:      949
+      Replacements:
+        - FilePath:        './car_comp.hpp'
+          Offset:          945
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        './car_comp.hpp'
+          Offset:          960
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './car_comp.hpp'
+      FileOffset:      1024
+      Replacements:
+        - FilePath:        './car_comp.hpp'
+          Offset:          1020
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        './car_comp.hpp'
+          Offset:          1037
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './car_comp.hpp'
+      FileOffset:      1111
+      Replacements:
+        - FilePath:        './car_comp.hpp'
+          Offset:          1107
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        './car_comp.hpp'
+          Offset:          1123
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  fuchsia-multiple-inheritance
+    DiagnosticMessage:
+      Message:         'inheriting mulitple classes that aren''t pure virtual is discouraged'
+      FilePath:        './car_comp.hpp'
+      FileOffset:      1189
+      Replacements:    []
+  - DiagnosticName:  performance-unnecessary-value-param
+    DiagnosticMessage:
+      Message:         'parameter ''ID'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+      FilePath:        './car_comp.hpp'
+      FileOffset:      1332
+      Replacements:
+        - FilePath:        './car_comp.hpp'
+          Offset:          20
+          Length:          0
+          ReplacementText: '#include <utility>
+
+'
+        - FilePath:        './car_comp.hpp'
+          Offset:          1332
+          Length:          0
+          ReplacementText: 'std::move('
+        - FilePath:        './car_comp.hpp'
+          Offset:          1334
+          Length:          0
+          ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    DiagnosticMessage:
+      Message:         'parameter ''id'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+      FilePath:        './car_comp.hpp'
+      FileOffset:      1431
+      Replacements:
+        - FilePath:        './car_comp.hpp'
+          Offset:          1431
+          Length:          0
+          ReplacementText: 'std::move('
+        - FilePath:        './car_comp.hpp'
+          Offset:          1433
+          Length:          0
+          ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    DiagnosticMessage:
+      Message:         'parameter ''identity'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+      FilePath:        './car_comp.hpp'
+      FileOffset:      1512
+      Replacements:
+        - FilePath:        './car_comp.hpp'
+          Offset:          1512
+          Length:          0
+          ReplacementText: 'std::move('
+        - FilePath:        './car_comp.hpp'
+          Offset:          1520
+          Length:          0
+          ReplacementText: ')'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './car_comp.hpp'
+      FileOffset:      1614
+      Replacements:
+        - FilePath:        './car_comp.hpp'
+          Offset:          1603
+          Length:          10
+          ReplacementText: auto
+        - FilePath:        './car_comp.hpp'
+          Offset:          1624
+          Length:          0
+          ReplacementText: ' -> Identifier'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        './car_comp.hpp'
+      FileOffset:      1654
+      Replacements:
+        - FilePath:        './car_comp.hpp'
+          Offset:          1649
+          Length:          4
+          ReplacementText: auto
+        - FilePath:        './car_comp.hpp'
+          Offset:          1668
+          Length:          0
+          ReplacementText: ' -> Date'
+  - DiagnosticName:  fuchsia-default-arguments-calls
+    DiagnosticMessage:
+      Message:         calling a function that uses a default argument is disallowed
+      FilePath:        car_comp.hpp
+      FileOffset:      220
+      Replacements:    []
+    Notes:
+      - Message:         default parameter was declared here
+        FilePath:        '/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/bits/basic_string.h'
+        FileOffset:      16627
+        Replacements:    []
+  - DiagnosticName:  fuchsia-default-arguments-calls
+    DiagnosticMessage:
+      Message:         calling a function that uses a default argument is disallowed
+      FilePath:        car_comp.hpp
+      FileOffset:      231
+      Replacements:    []
+    Notes:
+      - Message:         default parameter was declared here
+        FilePath:        '/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/bits/basic_string.h'
+        FileOffset:      16627
+        Replacements:    []
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        car_comp.hpp
+      FileOffset:      403
+      Replacements:
+        - FilePath:        car_comp.hpp
+          Offset:          391
+          Length:          11
+          ReplacementText: auto
+        - FilePath:        car_comp.hpp
+          Offset:          415
+          Length:          0
+          ReplacementText: ' -> std::string'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        car_comp.hpp
+      FileOffset:      499
+      Replacements:
+        - FilePath:        car_comp.hpp
+          Offset:          495
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        car_comp.hpp
+          Offset:          509
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        car_comp.hpp
+      FileOffset:      576
+      Replacements:
+        - FilePath:        car_comp.hpp
+          Offset:          564
+          Length:          11
+          ReplacementText: auto
+        - FilePath:        car_comp.hpp
+          Offset:          597
+          Length:          0
+          ReplacementText: ' -> std::string'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        car_comp.hpp
+      FileOffset:      949
+      Replacements:
+        - FilePath:        car_comp.hpp
+          Offset:          945
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        car_comp.hpp
+          Offset:          960
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        car_comp.hpp
+      FileOffset:      1024
+      Replacements:
+        - FilePath:        car_comp.hpp
+          Offset:          1020
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        car_comp.hpp
+          Offset:          1037
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        car_comp.hpp
+      FileOffset:      1111
+      Replacements:
+        - FilePath:        car_comp.hpp
+          Offset:          1107
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        car_comp.hpp
+          Offset:          1123
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  fuchsia-multiple-inheritance
+    DiagnosticMessage:
+      Message:         'inheriting mulitple classes that aren''t pure virtual is discouraged'
+      FilePath:        car_comp.hpp
+      FileOffset:      1189
+      Replacements:    []
+  - DiagnosticName:  performance-unnecessary-value-param
+    DiagnosticMessage:
+      Message:         'parameter ''ID'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+      FilePath:        car_comp.hpp
+      FileOffset:      1332
+      Replacements:
+        - FilePath:        car_comp.hpp
+          Offset:          20
+          Length:          0
+          ReplacementText: '#include <utility>
+
+'
+        - FilePath:        car_comp.hpp
+          Offset:          1332
+          Length:          0
+          ReplacementText: 'std::move('
+        - FilePath:        car_comp.hpp
+          Offset:          1334
+          Length:          0
+          ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    DiagnosticMessage:
+      Message:         'parameter ''id'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+      FilePath:        car_comp.hpp
+      FileOffset:      1431
+      Replacements:
+        - FilePath:        car_comp.hpp
+          Offset:          1431
+          Length:          0
+          ReplacementText: 'std::move('
+        - FilePath:        car_comp.hpp
+          Offset:          1433
+          Length:          0
+          ReplacementText: ')'
+  - DiagnosticName:  performance-unnecessary-value-param
+    DiagnosticMessage:
+      Message:         'parameter ''identity'' is passed by value and only copied once; consider moving it to avoid unnecessary copies'
+      FilePath:        car_comp.hpp
+      FileOffset:      1512
+      Replacements:
+        - FilePath:        car_comp.hpp
+          Offset:          1512
+          Length:          0
+          ReplacementText: 'std::move('
+        - FilePath:        car_comp.hpp
+          Offset:          1520
+          Length:          0
+          ReplacementText: ')'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        car_comp.hpp
+      FileOffset:      1614
+      Replacements:
+        - FilePath:        car_comp.hpp
+          Offset:          1603
+          Length:          10
+          ReplacementText: auto
+        - FilePath:        car_comp.hpp
+          Offset:          1624
+          Length:          0
+          ReplacementText: ' -> Identifier'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        car_comp.hpp
+      FileOffset:      1654
+      Replacements:
+        - FilePath:        car_comp.hpp
+          Offset:          1649
+          Length:          4
+          ReplacementText: auto
+        - FilePath:        car_comp.hpp
+          Offset:          1668
+          Length:          0
+          ReplacementText: ' -> Date'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        main.cpp
+      FileOffset:      48
+      Replacements:
+        - FilePath:        main.cpp
+          Offset:          44
+          Length:          3
+          ReplacementText: auto
+        - FilePath:        main.cpp
+          Offset:          54
+          Length:          0
+          ReplacementText: ' -> int'
+  - DiagnosticName:  fuchsia-default-arguments-calls
+    DiagnosticMessage:
+      Message:         calling a function that uses a default argument is disallowed
+      FilePath:        main.cpp
+      FileOffset:      236
+      Replacements:    []
+    Notes:
+      - Message:         default parameter was declared here
+        FilePath:        '/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/bits/basic_string.h'
+        FileOffset:      16627
+        Replacements:    []
+  - DiagnosticName:  fuchsia-default-arguments-calls
+    DiagnosticMessage:
+      Message:         calling a function that uses a default argument is disallowed
+      FilePath:        main.cpp
+      FileOffset:      248
+      Replacements:    []
+    Notes:
+      - Message:         default parameter was declared here
+        FilePath:        '/../lib64/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/bits/basic_string.h'
+        FileOffset:      16627
+        Replacements:    []
+...

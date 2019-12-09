@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<replacements xml:space='preserve' incomplete_format='false'>
+<replacement offset='1621' length='1'>&#10;  // </replacement>
+<replacement offset='1739' length='1'>&#10;  // </replacement>
+</replacements>
+<?xml version='1.0'?>
+<replacements xml:space='preserve' incomplete_format='false'>
+<replacement offset='239' length='1'>&#10;            </replacement>
+<replacement offset='418' length='1'>&#10;            </replacement>
+</replacements>
+<?xml version='1.0'?>
+<replacements xml:space='preserve' incomplete_format='false'>
+<replacement offset='1279' length='1'>&#10;&#10;</replacement>
+</replacements>

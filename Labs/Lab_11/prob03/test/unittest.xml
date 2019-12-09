@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="0" disabled="0" errors="0" time="0.005" timestamp="2019-12-07T23:36:00" name="AllTests">
+  <testsuite name="Car" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-07T23:36:00">
+    <testcase name="PublicMethodPresent" status="run" result="completed" time="0" timestamp="2019-12-07T23:36:00" classname="Car" />
+  </testsuite>
+  <testsuite name="CarClass" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2019-12-07T23:36:00">
+    <testcase name="AccessorsAndMutators" status="run" result="completed" time="0" timestamp="2019-12-07T23:36:00" classname="CarClass" />
+    <testcase name="DefaultConstructor" status="run" result="completed" time="0" timestamp="2019-12-07T23:36:00" classname="CarClass" />
+    <testcase name="NonDefaultIdentifierConstructor" status="run" result="completed" time="0" timestamp="2019-12-07T23:36:00" classname="CarClass" />
+    <testcase name="NonDefaultReleaseDateConstructor" status="run" result="completed" time="0" timestamp="2019-12-07T23:36:00" classname="CarClass" />
+    <testcase name="NonDefaultIdentifierReleaseDateConstructor" status="run" result="completed" time="0" timestamp="2019-12-07T23:36:00" classname="CarClass" />
+    <testcase name="Print1" status="run" result="completed" time="0" timestamp="2019-12-07T23:36:00" classname="CarClass" />
+    <testcase name="Print2" status="run" result="completed" time="0" timestamp="2019-12-07T23:36:00" classname="CarClass" />
+  </testsuite>
+  <testsuite name="Driver" tests="1" failures="0" disabled="0" errors="0" time="0.005" timestamp="2019-12-07T23:36:00">
+    <testcase name="Output" status="run" result="completed" time="0.005" timestamp="2019-12-07T23:36:00" classname="Driver" />
+  </testsuite>
+</testsuites>

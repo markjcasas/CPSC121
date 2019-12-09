@@ -25,4 +25,4 @@ do
 done
 ENTRIES=${ENTRIES}"]"
 
-echo -e $ENTRIES >> "$WD/test/compile_commands.json"
+echo -e $ENTRIES >> $WD/test/compile_commands.json

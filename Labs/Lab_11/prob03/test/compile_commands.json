@@ -1,0 +1,17 @@
+[
+ {
+ "directory" : "/home/zach/Dropbox (CSU Fullerton)/Personal/Programming/C++/Labs/Lab_11/prob03",
+ "command" : "clang++ -std=c++17 main.cpp -o main",
+ "file" : "/home/zach/Dropbox (CSU Fullerton)/Personal/Programming/C++/Labs/Lab_11/prob03/main.cpp"
+ },
+ {
+ "directory" : "/home/zach/Dropbox (CSU Fullerton)/Personal/Programming/C++/Labs/Lab_11/prob03",
+ "command" : "clang++ -std=c++17 car_comp.cpp -o main",
+ "file" : "/home/zach/Dropbox (CSU Fullerton)/Personal/Programming/C++/Labs/Lab_11/prob03/car_comp.cpp"
+ },
+ {
+ "directory" : "/home/zach/Dropbox (CSU Fullerton)/Personal/Programming/C++/Labs/Lab_11/prob03",
+ "command" : "clang++ -std=c++17 car_comp.hpp -o main",
+ "file" : "/home/zach/Dropbox (CSU Fullerton)/Personal/Programming/C++/Labs/Lab_11/prob03/car_comp.hpp"
+ },
+]
